@@ -1,0 +1,84 @@
+#board{
+    border: 1pt black solid;
+    width: 50px;
+    height: 50px;
+    border-spacing: 0ch;
+}
+td{
+    border: 5pt black solid;
+    width: 48pt;
+    height: 48pt;
+}
+.black{
+    
+    background-color: lightsalmon;
+    background-repeat: no-repeat;
+    background-size: 65px;
+}
+.white{
+    background: lightseagreen;
+    background-repeat: no-repeat;
+    background-size: 65px;
+}
+
+.focus{
+    background-color: lightgreen;
+    background-repeat: no-repeat;
+    background-size: 65px;
+}
+.possibleMove{
+    background-color: lightgreen;
+    background-repeat: no-repeat;
+    background-size: 65px;
+}
+
+[value = "0Ki"]{
+ background-image: url("white-King.png");
+}
+
+[value = "0R"]{
+    background-image: url("white-Rook.png");
+}
+
+[value = "0P"]{
+  
+    background-image: url("white-Pawn.png");
+}
+
+[value = "0B"]{
+    background-image: url("white-Bishop.png");
+}
+
+[value = "0Kn"]{
+    background-image: url("white-Knight.png");
+}
+
+[value = "0Q"]{
+    background-image: url("white-Queen.png");
+}
+/*************************************************************/
+[value = "1Ki"]{
+    background-image: url("black-King.png");
+   }
+   
+   [value = "1R"]{
+       background-image: url("black-Rook.png");
+   }
+   
+   [value = "1P"]{
+     
+       background-image: url("black-Pawn.png");
+   }
+   
+   [value = "1B"]{
+       background-image: url("black-Bishop.png");
+   }
+   
+   [value = "1Kn"]{
+       background-image: url("black-Knight.png");
+   }
+   
+   [value = "1Q"]{
+       background-image: url("black-Queen.png");
+   }
+
